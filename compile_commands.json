@@ -1,0 +1,29 @@
+[
+    {
+        "arguments": [
+            "cc",
+            "-c",
+            "-Wall",
+            "-Werror",
+            "-O",
+            "-fno-omit-frame-pointer",
+            "-ggdb",
+            "-DSOL_UTIL",
+            "-DLAB_UTIL",
+            "-mcmodel=medany",
+            "-ffreestanding",
+            "-fno-common",
+            "-nostdlib",
+            "-mno-relax",
+            "-I.",
+            "-fno-stack-protector",
+            "-fno-pie",
+            "-no-pie",
+            "-o",
+            "user/pingpong.o",
+            "user/pingpong.c"
+        ],
+        "directory": "/home/book/workspace_xv6/xv6-labs-2021",
+        "file": "user/pingpong.c"
+    }
+]
